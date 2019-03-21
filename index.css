@@ -2,7 +2,7 @@
      margin: 0;
      padding: 0;
      
- } 
+/*  } 
  /* // Preload styles// */
  @keyframes seq-preloader {
   50% {
@@ -93,7 +93,7 @@
 .seq-preload-indicator-fallback .seq-preload-circle-3 {
   width: 16px;
   height: 16px;
-}
+} */
 /* // Preload styles end// */
  body {
      box-sizing: border-box;
