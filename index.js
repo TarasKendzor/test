@@ -1,5 +1,8 @@
 'use strict';
-$(window).on('load', function () {
+
+$( document ).ready(function() {
+  
+    $(window).on('load', function () {
     var $preloader = $('#preloader'),
         $svg_anm   = $preloader.find('.seq-preloade');
     $svg_anm.fadeOut();
@@ -27,5 +30,5 @@ $('.nav-link').click(function(e){
   $('#home').click(function(e){
     $('html, body').animate({scrollTop: 0}, 500);
        e.preventDefault();
- })
-
+ }) 
+});
